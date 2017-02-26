@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
+
+entity seven_segment_display_2bitdec is
+
+port(sw: in std_logic_vector(4 downto 0);
+	  hex0: out std_logic_vector(6 downto 0);
+	  hex1: out std_logic_vector(6 downto 0));
+end seven_segment_display_2bitdec;

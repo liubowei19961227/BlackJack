@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -2.291
+TNS   : -35.850
+
+Type  : Slow Model Setup 'BlackJack_DataPath:data_path|score[1]'
+Slack : -1.123
+TNS   : -3.181
+
+Type  : Slow Model Hold 'BlackJack_DataPath:data_path|score[1]'
+Slack : -3.120
+TNS   : -9.334
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.631
+TNS   : -39.513
+
+Type  : Slow Model Minimum Pulse Width 'BlackJack_DataPath:data_path|score[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.864
+TNS   : -4.064
+
+Type  : Fast Model Setup 'BlackJack_DataPath:data_path|score[1]'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast Model Hold 'BlackJack_DataPath:data_path|score[1]'
+Slack : -1.669
+TNS   : -4.793
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -32.380
+
+Type  : Fast Model Minimum Pulse Width 'BlackJack_DataPath:data_path|score[1]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

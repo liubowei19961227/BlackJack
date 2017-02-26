@@ -1,0 +1,10 @@
+
+State Machine - |BlackJack|BlackJack_FSM:FSM|y
+Name y.lost_state y.finish_state y.transition_state y.score_state y.add_state y.load_state y.newCard_state 
+y.newCard_state 0 0 0 0 0 0 0 
+y.load_state 0 0 0 0 0 1 1 
+y.add_state 0 0 0 0 1 0 1 
+y.score_state 0 0 0 1 0 0 1 
+y.transition_state 0 0 1 0 0 0 1 
+y.finish_state 0 1 0 0 0 0 1 
+y.lost_state 1 0 0 0 0 0 1 
